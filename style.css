@@ -1,9 +1,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f9f9f9;
-    color:#333;
+    color:#0d0e0d;
     margin: 0;
     padding: 0;
+    font-size: 15px;
 }
 
 header{
@@ -11,30 +12,47 @@ header{
     color: #fff;
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .about{
    padding: 20px;
+   text-align: left;
+   border: #0578a5;
+   object-position: left;
+ }
+
+ .about-me{
+    text-decoration: underline;
+ }
+
+ .projectsh1{
+        text-decoration: underline;
+
+ }
     
-}
+
 
 section{
     padding: 20px;
     margin: 10px auto;
-    max-width: 600px;
-    background: white;
+    max-width: 700px;
+    
     border-radius: 20px;
-    box-shadow: 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 5px rgba(5, 128, 150, 0.3);
+    top: 30px;
+    padding-right: 2000;
 }
 
 h2{
-    color: #007bff;
+    color: #104986;
+    text-align: left;
 }
 
 footer{
     text-align: center;
     padding: 10px;
-    background: rgb(7, 159, 230);
+    background: #104986;
 }
 
 .social-links{
@@ -42,37 +60,41 @@ footer{
 }
 
 .social-links > a{
-    text-decoration: underline;
-    color: #f3f6fa;
+    text-decoration: dashed;
+    color: rgb(15, 3, 122);
     text-decoration: none;
     font-weight: bolder;
 }
 
-.social-linlks > a:hover{
-    text-decoration: underline;
-    font-size: 40px;
-    color: black;
+.social-links > a:hover {
+    text-decoration: wavy;
+    font-size: 30px;
+    color: rgb(15, 168, 10);
+    padding: 20px;
 }
 
 footer > p{
-    color: black;
-    font-weight: 1800;
+    color: 104986;
+    font-weight: bold;
 }
 
 /*Project list*/
 .project-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px
+    justify-content: left;
+    gap: 20px;
+    height: 300%;
+    width: 130%;
+    
 }
 
 .project-card{
     background-color: #ffff;
-    border-left: 4px solid #e6782f;
+    border-left: 4px solid #2ccef7;
     padding: 15px;
     border-radius: 8px;
-    width: 250px;
+    width: 300px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     transition: transform 0.2s;
 }
@@ -83,7 +105,7 @@ footer > p{
 
 .project-card > h3{
     margin-top: 0;
-    color: #9ee41d;
+    color: #30b40f;
 }
 
 .project-card > p{
@@ -94,7 +116,7 @@ footer > p{
 .project-card > a{
     display: inline-block;
     padding-left: 8px 15px;
-    color: #e9830f;
+    color: #101549;
     border: none;
     border-radius: 6px;
     text-decoration: none;
@@ -134,3 +156,8 @@ nav{
 .navbar > li > a:hover{
     background-color: #007bff;
 }
+
+
+ 
+
+ 
